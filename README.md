@@ -151,4 +151,16 @@ In World Wide Web Services, I went into Application Development and made sure th
 
 I hit OK and installed the changes.
 
+Open IIS Desktop application then go to the Sites option.
+
+[Screenshot](Path)
+
+On the right menubar, I clicked on "Add Website". I filled the form according to the following example. I gave an application name of my choice, the physical path is the path of the application folder. The IP address is Unassigned. I also chose a port.
+
+[Screenshot](Path)
+
+After I saved the configurations, the website started immediately on port 5555. 
+
+**4. Some Errors**
+
 
