@@ -138,7 +138,14 @@ For the static files, create a `web.config` file in the static folder:
 </configuration>
 ```
 
+I opened Turn Windowfeatures On and Off and searched for Internet Information Services. 
 
+[Screenshot](Path)
 
+In World Wide Web Services I went into Application Development and made sure that the option CGI is ticked. 
+
+[Screenshot](Path)
+
+I hit OK and installed the changes.
 
 
