@@ -1,9 +1,8 @@
 # Deploy_Flask_IIS
-## How to deploy Flask application on IIS
+## How to deploy Flask App on IIS
 
 ## Contents
 
-### Deploying Flask Application
 ### Introduction
 ### Other Methods – why they didn’t work
 ### My Solution
