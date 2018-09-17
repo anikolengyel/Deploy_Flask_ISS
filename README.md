@@ -9,7 +9,8 @@
 1. Installations
 2. Sample Program
 3. Config Files
-4. Errors
+4. Install and configure IIS
+5. Errors
 
 
 ### Introduction
@@ -138,11 +139,13 @@ For the static files, create a `web.config` file in the static folder:
 </configuration>
 ```
 
-I opened Turn Windowfeatures On and Off and searched for Internet Information Services. 
+**4. Install and configure IIS**
+
+I opened Turn Windowfeatures On and Off on desktop and searched for Internet Information Services. 
 
 [Screenshot](Path)
 
-In World Wide Web Services I went into Application Development and made sure that the option CGI is ticked. 
+In World Wide Web Services, I went into Application Development and made sure that the option CGI is ticked. 
 
 [Screenshot](Path)
 
