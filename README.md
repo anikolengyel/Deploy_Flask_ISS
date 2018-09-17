@@ -1,5 +1,5 @@
-# Deploy_Flask_ISS
-## How to deploy Flask application on ISS.
+# Deploy_Flask_IIS
+## How to deploy Flask application on IIS
 
 ## Contents
 
