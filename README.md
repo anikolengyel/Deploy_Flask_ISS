@@ -16,31 +16,25 @@
 ### Other Methods – why they didn’t work
 ### My Solution
 **1. Installations**
-- Install Python 3.x  on C:/
--	Add Python to path
+- I installed Python 3.x and ticked the option "Add Python to PATH".
 
-- Start cmd and type python to test if Python is added to the path.
+- I started cmd and typed `python` to test if Python is added to the path. Use `exit()` to exit.
 
 ```pip install wfastcgi```
 
--	Install pip
-- pip installs: 
+- After that, I used the following commands to install flask and wfastcgi:
 
 ```pip install wfastcgi```
 
 ```pip install flask```
 
-Other libraries required to run the python program.
-
-Other install to the program.
-
-In powershell enable Wfast CGI:
+In powershell, I enabled Wfast CGI:
 
 ```wfastcgi enable```
 
 **2. Sample Program**
 
-Create a sample Flask program with HTML templates and Static files.
+I created a sample Flask program with HTML templates and static CSS.
 
 Python program:
 
@@ -90,8 +84,8 @@ CSS file:
 
 **3. Config Files**
 
-Create a `web.config` in the folder of myapp.py with the following content. For scriptProcessor use the path to the python.exe and
-the wfastcgi.py. Use the output of wfastcgi.enable command. The "WSGI_HANDLER" should be myapp.app (filename.Flaskappname), and the "PYTHONPATH" should pooint to the directory of the Flask program.
+I created a `web.config` in the folder of myapp.py with the following content. For scriptProcessor use the path to the python.exe and
+the wfastcgi.py. To make this easies, I simply used the output of wfastcgi.enable command. The "WSGI_HANDLER" should be myapp.app (filename.Flaskappname), and the "PYTHONPATH" should pooint to the directory of the Flask program.
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
