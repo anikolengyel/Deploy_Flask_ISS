@@ -17,13 +17,13 @@
 ### Other Methods – why they didn’t work
 ### My Solution
 **1. Installations**
-- I installed Python 3.x and ticked the option "Add Python to PATH".
+I installed Python 3.x and ticked the option "Add Python to PATH".
 
-- I started cmd and typed `python` to test if Python is added to the path. Use `exit()` to exit.
+I started cmd and typed `python` to test if Python is added to the path. Use `exit()` to exit.
 
 ```pip install wfastcgi```
 
-- After that, I used the following commands to install flask and wfastcgi:
+After that, I used the following commands to install flask and wfastcgi:
 
 ```pip install wfastcgi```
 
