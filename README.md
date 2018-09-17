@@ -151,16 +151,30 @@ In World Wide Web Services, I went into Application Development and made sure th
 
 I hit OK and installed the changes.
 
-Open IIS Desktop application then go to the Sites option.
+I opened IIS Desktop application then go to the Sites option on the left pane.
 
 [Screenshot](Path)
 
-On the right menubar, I clicked on "Add Website". I filled the form according to the following example. I gave an application name of my choice, the physical path is the path of the application folder. The IP address is Unassigned. I also chose a port.
+After that, I started getting ready to load the website. On the right menubar, I clicked on "Add Website". I filled the form according to the following example. I gave an application name of my choice, the physical path is the path of the application folder. The IP address is Unassigned. I also chose a port.
 
 [Screenshot](Path)
 
-After I saved the configurations, the website started immediately on port 5555. 
+After I saved the configurations, the website started immediately on port 5555. I tried to run the site. 
 
 **4. Some Errors**
+
+**Error 500.19** - The requested page cannot be accessed because the related configuration data for the page is invalid.
+
+The error means that you need to unlock your handlers. To do this, go to your application pool in your IIS application, then click on the option "Configure Editor". Go to system.webServer and choose handlers. On the right pane, there is an option "Unlock Section". Click it. Refresh the page.
+
+**Error 500.0** - <handler> scriptProcessor could not be found in <fastCGI> application configuration
+
+IIs doesn't have permission to Python files. 
+
+- Open up the web.config file in the application folder. Doublecheck the value of scriptProcessor. 
+
+
+
+
 
 
